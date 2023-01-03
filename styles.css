@@ -1,0 +1,56 @@
+#container {
+    width: 500px;
+    height: 420px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 4px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+#display {
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 50px;
+    margin: 20px;
+    background-color: white;
+    padding: 5px;
+    height: 60px;
+}
+
+#keys {
+    display: flex;
+    margin: 20px;
+}
+
+#numbers {
+    flex: 2;
+}
+
+#operators {
+    flex: 1;
+}
+
+#others {
+    flex: 1;
+}
+
+#numbers > button {
+    width: 70px;
+    height: 70px;
+}
+
+button {
+    font-size: 25px;
+}
+
+#operators > button {
+    width: 80px;
+    height: 40px;
+}
+
+#others > button {
+    width: 100px;
+    height: 40px;
+}
